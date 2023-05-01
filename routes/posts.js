@@ -36,7 +36,7 @@ router.get("/posts/:postId", async (req, res) => {
     },
     attributes: [
       "postId",
-      "userId",
+      "UserId",
       "nickname",
       "title",
       "content",
